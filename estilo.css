@@ -1,0 +1,272 @@
+body {
+   
+    background-color: #041b3b;
+  
+  }
+
+  h1 
+  {
+  text-align: center;
+  }
+  h5{
+    text-align: center;
+  }
+  h6{
+    text-align: center;
+  }
+  embed{
+    position: relative;
+    left: 70px;
+  }
+  header {
+    background: url(imagenes/residencial1.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 70vh;;
+    color:black;
+    opacity: 50%;
+    
+  }
+  .header .navbar {
+    background-color:#04274B;
+  }
+  .una{
+    color:#FFFFFF;
+    font-size: 60px;
+  }
+  .redes{
+    height: 130px;
+    width: 130px;
+    border: none;
+    position: relative;
+    left: 30px;
+  }
+  .text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .card{
+    margin: 0 auto;
+    color:rgb(5, 22, 67);
+    background-color: #f7e3d4;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+    border-radius: 20px;    
+  }
+  .card-text-center{
+    text-align: justify;
+  }
+  .table
+  {
+    background-color: red;
+    position: relative;
+    left: 90px;
+  }
+  .lett{
+    position: relative;
+    bottom: 240px;
+    text-align: center;
+    font-family: "century gothic";
+    color: #FFFFFF;
+    font-size: 50px;
+  }
+a{
+    padding: 8px;
+    margin: 2px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: var(black);
+    background:#081b3b;
+} 
+
+.es{
+  color:#FFFFFF ;
+}
+.en{
+  color: #58FAF4;
+}
+.check{
+  position:relative;
+  width: 50px; 
+  margin: 15px; 
+} 
+.check:before{
+  content: '';
+  position:absolute;
+  width: 50px;
+  height: 25px;
+  background:#333;
+  border-radius: 25px;
+}
+.check:after{
+  content: '';
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background: #FFFFFF;
+  border-radius: 25px;
+  transition: 0.25s;
+  border: 2px solid #333;
+  box-sizing: border-box;
+}
+.check:checked:after{
+  left: 25px;
+  border:2px solid #58FAF4;
+}
+.check:checked:before{
+  background:#58FAF4;
+}
+.centro{
+  width: 197px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+img{
+  transition: all 0.5s linear;
+  border: 1.5px solid;
+}
+img:hover{
+  transform: scale(0.9);
+}
+.switch1{
+  background: #343D5B;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+  margin: 20px;
+}
+.span{
+    width: 30px;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    background: none;
+    color:#FFFFFF;
+}
+.switch1:after{
+  content:"";
+  display:block;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  background: #FFFFFF;
+  top:0;
+  left:0;
+  right: unset;
+  border-radius: 100px;
+  transition: .3s ease all;
+  box-shadow: 0px 0px 2px rgba(0,0,0.2);
+}
+.switch1.active{
+  background: orange;
+  color: #000;
+}
+.switch:after{
+  right:0;
+  left: unset;
+}
+.img1{
+  border: none;
+  box-shadow: 5px 5px 0px #ccc;
+  position: relative;
+
+}
+.table{
+  width: 90%;
+  background: #FFFFFF;
+}
+.card-text-center{
+  font-family:"Verdana";
+  font-size: 17px;
+}
+td{
+  font-family: "century gothic";
+  font-size: 18px;
+  text-align: center;
+}
+th{
+  font-family: "century gothic";
+  font-size: 20px;
+  text-align: center;
+}
+.letra{
+  font-family: "century gothic";
+  font-size: 20px;
+}
+button{
+  border:none;
+}
+.accordion{
+  padding: 20px;
+  position: relative; 
+  right: 450px;  
+}
+.accordion2{
+  padding:  none;
+  position: relative; 
+  right: 450px;
+}
+.accordion3{
+  padding: 20px;
+  position: relative; 
+  right: 450px;
+}
+.accordion4{
+ padding: 20px;
+ position: relative; 
+ left: 320px;
+ bottom: 380px;
+}
+.span1{
+  width: 30px;
+  height: 25px;
+  color:#FFFFFF;
+  position: relative;
+  left: 15px; 
+}
+.span2{
+   width: 30px;
+   height: 25px;
+   color:#FFFFFF;
+   position: relative;
+   top: 10px;
+   left: 25px;
+}
+.span3{
+   width: 30px;
+   height: 25px;
+   color:#FFFFFF;
+   position: relative;
+   top: 10px;
+   left: 25px;
+}
+.span4{
+   width: 30px;
+   height: 25px;
+   color:#FFFFFF;
+   position: relative;
+   top: 10px;
+   left: 25px;
+}
+.span5{
+   width: 30px;
+   height: 25px;
+   color:#FFFFFF;
+   position: relative;
+   top: 10px;
+   left: 20px;
+}
+.fer{
+  height: 260px;
+  width: 210px;
+}
